@@ -1,0 +1,98 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .head {
+        flex-direction:column;
+        align-items: stretch;
+        padding:10px;
+        gap:15px;
+    }
+    .headerleft {
+        justify-content: center;
+    }
+
+    .logo {
+        padding:10px;
+    }
+
+    .adderess {
+        padding:10px;
+    }
+
+    .adderess p {
+        font-size: 12px;
+    }
+
+    .adderess h3 {
+        font-size: 15px;
+    }
+
+    .search button {
+        padding:10px;
+    }
+    .headerright {
+        position:fixed;
+        width:100%;
+        margin-right: 0px;
+        bottom: 0px;
+        justify-content: center;
+        background-color: white;
+    }
+    .banner img {
+        display: none;
+    }
+    .bannerpart {
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .banner2 {
+        flex-direction:column;
+        padding:10px;
+    }
+
+    .categorysection1 {
+        flex-wrap: wrap;
+    }
+    .categoryitem {
+        flex-basis: 25%;
+        
+    }
+
+    .productitem {
+        flex-basis:48%;
+    }
+
+    .productsection {
+         padding:0px 10px; 
+    }
+
+    footer {
+        padding-top: 0px;
+    }
+
+
+    .footer-mid1  {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .footer-mid1left  {
+        margin-bottom: 20px;
+    }
+
+    .footer-mid3 {
+        padding: 0px 10px;
+    }
+
+    .footer-mid2  {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+    
+
+
+
+
+   
+}

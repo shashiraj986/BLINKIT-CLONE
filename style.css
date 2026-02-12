@@ -1,0 +1,310 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+.head {
+    display:flex;
+    align-items: center;
+    border-top: 1px solid #eeeeee; 
+    border-bottom: 1px solid #eeeeee; 
+    gap: 40px;
+
+}
+
+
+.headerleft {
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    padding:22px 30px;
+    border-right:1px solid #eeeeee;
+}
+
+.adderess {
+    padding:18px 30px;
+}
+
+.adderess  h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.adderess p {
+    font-size: 14px;
+}
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    border:1px solid #eeeeee;
+    background-color:#eeeeee;
+    border-radius: 15px;
+    
+}
+
+.search button {
+    padding:15px;
+    border:none;
+    background-color:transparent; 
+    
+}
+
+.search input {
+    flex-grow: 1;
+    border:none;
+    background-color:transparent; 
+    
+}
+
+.search input:focus {
+    outline:none;
+}
+.headerright {
+    display:flex;
+    margin-right: 40px;
+    gap:30px;
+    
+} 
+
+.headerright button {
+    padding:15px;
+    background-color: transparent;
+    border:none;
+    font-size: 16px;
+}
+
+.headerright button:last-child {
+    background-color: #0c831f;
+    border-radius: 9px;
+    color:white;
+    font-weight: bold;
+} 
+
+.banner  {
+    max-width: 1280px;
+    margin:auto;
+}
+
+.banner img {
+    width:100%;
+}
+
+.banner2 {
+     display: flex; 
+    max-width: 1280px;
+    margin:auto;
+    
+}
+
+.bannerpart {
+    flex-basis: 27%;
+     margin:1%; 
+    
+}
+
+.bannerpart img {
+    width:100%;
+}
+
+.categorysection1 {
+    display:flex;
+    max-width:1280px;
+    margin:auto;
+    flex-wrap: wrap;
+}
+
+.categoryitem  {
+    flex-basis:10%;
+
+}
+
+.categoryitem  img  {
+    width: 100%;
+
+}
+
+.productsection {
+    max-width:1280px;
+    margin:auto;
+}
+
+.headingrow {
+    display:flex;
+    justify-content: space-between;
+}
+
+.headingrow h2 {
+    font-size: 22px;
+
+}
+
+.headingrow a {
+    font-size:18px;
+    color:#0c831f;
+}
+
+.productrow {
+    width:100%;
+    display: flex;
+    margin:30px 0px;
+    gap:2%;
+    flex-wrap: wrap;
+}
+
+.productitem {
+    flex-basis: 14%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #fafafa;
+    margin-bottom: 15px;
+}
+
+.productimage {
+    text-align: center;
+    padding:15px;
+}
+
+.productimage p {
+    padding:2px;
+    gap:5px;
+    align-items: center;
+    display: flex;
+    text-align: left;
+    width:60px;
+    justify-content: center;
+    font-size: 12px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.productcontent {
+    padding:15px;
+    padding-top: 0px;
+}
+
+.productcontent h3 {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.productcontent p {
+    font-size: 14px;
+    color:#848080;
+}
+
+.btn-price {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-price button {
+    background-color: #f7fff9;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border:1px solid #328839;
+}
+
+footer {
+    padding-top: 40px;
+}
+.footer-mid {
+    max-width:1280px;
+    margin:auto;
+}
+.footer-mid1{
+    width: 100%;
+    display: flex;
+}
+
+.footer-mid1left {
+    flex-basis: 30%;
+}
+
+.footer-mid1left h3 {
+    margin-bottom: 20px;
+}
+
+.useful-link  {
+    display: flex;
+
+}
+
+.useful-link ul {
+    flex-basis: 33%;
+    list-style: none;
+}
+
+.useful-link ul a {
+    font-size:14px;
+    display:block;
+    color: #7d7d7d;
+    margin-bottom: 13px;
+}
+
+.footer-mid1right {
+    flex-basis: 70%;
+}
+
+.footer-mid1rightheading  {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-mid1rightheading a  {
+    color: #459747;
+}
+
+
+.footer-mid2 {
+        background-color: #fcfcfc;
+        padding:20px 0px;
+        width:100%;
+        display: flex;
+        align-items: center;
+}
+
+.footer-mid2 p {
+    flex-basis: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-mid2middle  {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-mid3 p {
+    color:#7d7d7d;
+    font-size: 14px;
+    padding: 20px 0px;
+    line-height: 20px;
+}
+
+.social-link  {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1f1f1f;
+    width:40px;
+    height: 40px;
+    border-radius:50%;
+}
